@@ -1,0 +1,25 @@
+databaseChangeLog:
+  - changeSet:
+      id: create-tables
+      author: vanmanh
+      changes:
+        - sqlFile:
+            path: changelog/ddl/changelog-0001.sql
+  - changeSet:
+      id: create-tables-2
+      author: vanmanh
+      changes:
+        - sqlFile:
+            path: changelog/ddl/changelog-0002.sql
+  - changeSet:
+      id: create-tables-3
+      author: vanmanh
+      changes:
+        - sqlFile:
+            path: changelog/ddl/changelog-0003.sql
+  - changeSet:
+      id: create-tables-4
+      author: vanmanh
+      changes:
+        - sqlFile:
+            path: changelog/ddl/changelog-0004.sql
